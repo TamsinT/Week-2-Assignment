@@ -70,7 +70,7 @@ li {
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   font-weight: 300;
-   }   
+   }
 h3 {
   font-family: 'Open Sans' sans-serif;
   font-size: 20px;
@@ -120,10 +120,17 @@ h3 {
   margin-left: 20%;
   padding-top: 60px;
              }
+.social-media-logo {
+  list-style-type: none;
+  display: inline;
+  text-align: center;
+}
+img {
+  padding: 20px;
+}
 footer {
-  height: 200px;
+  height: 300px;
   background-color:#121212;
   color: white;
   margin-top: 0px;
-
 }
