@@ -3,61 +3,98 @@ header {
   height: 500px;
   margin-left: 4%;
   margin-right: 4%;
+  margin-bottom: 0px;
   background-color: grey;
   background-image: url(../images/header_bg.jpg);
        }
   h1 {
-  font-family:'Open Sans' sans-serif 24px;
+  font-family:'Open Sans' sans-serif;
   font-weight: 700;
-  color: #f9e42e;
+  font-size: 34px;
+  color: white;
   margin-left: 20%;
   padding-top: 60px;
-
      }
   h2 {
-    font-family:'Open Sans' sans-serif 24px;
+    font-family:'Open Sans' sans-serif;
     font-weight: 600;
+    font-size: 24px;
     text-align: center;
     color: white;
     margin-top: 70px;
   }
   .button1 {
     background-color: #f9e42e;
+    font-family:'Open Sans' sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #033048;
     margin-left: 450px;
     margin-top: 100px;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
          }
 
   p {
-
+    color: white;
     margin-left: 20%;
     margin-right: 20%;
-
     }
+.copyright-text {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 9px;
+  font-weight: 600;
+  text-align: center;
+}
 .benefits-box,.quote-box,.signup-box, footer {
   width: 90%;
   margin-left: 4%;
   margin-right: 4%;
                                              }
 .benefits-box {
+  margin-top: 0px;
   height: 300px;
   background-color: #f0efef;
   color: black;
               }
+.listdescription {
+  color: black;
+                 }
+ul {
+  color: black;
+  margin-left: 200px;
+
+   }
+li {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+   }   
 h3 {
-  font-family: 'Open Sans' sans-serif 20px;
+  font-family: 'Open Sans' sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #033048;
   margin-left: 20%;
-  padding-top: 60px
-}
+  padding-top: 60px;
+   }
 .quote-box {
   padding-top: 110px;
-  height: 300px;
-  font-family: 'Open Sans', sans-serif 18px;
+  height: 240px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-size: 18px;
   font-weight: 300;
   text-align: center;
   color: white;
   background-image: url(../images/testimonial_bg.jpg);
+}
+.boldname {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: red;
 }
 
 .signup-box {
@@ -66,16 +103,27 @@ h3 {
 }
 .button2 {
   background-color: #033048;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
   color: white;
   margin-left: 450px;
-  margin-top: 10px;
-  padding: 10px;
-  border-radius: 10px;
-
-}
-
+  margin-top: 15px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+         }
+.bottomtitle {
+  font-family:'Open Sans' sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  color: #f9e42e;
+  margin-left: 20%;
+  padding-top: 60px;
+             }
 footer {
   height: 200px;
   background-color:#121212;
   color: white;
+  margin-top: 0px;
+
 }
