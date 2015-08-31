@@ -5,8 +5,91 @@ header {
   margin-right: 4%;
   margin-bottom: 0px;
   background-color: grey;
-  background-image: url(../images/header_bg.jpg);
+  clear:both;
        }
+.home-header {
+  background-image: url(../images/header_bg.jpg);
+}
+.nav-header {
+  width: 90%;
+  height: 200px;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 0px;
+  background-color: #033048;
+  clear:both;
+}
+.navigation {
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
+.navigation-menu {
+  color: #f9e42e;
+  font-family: 'Open Sans' sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 50%;
+  list-style-type: none;
+  float:left;
+                 }
+.right-side-panel {
+  margin-top: 0px;
+  margin-left: 0%;
+  margin-right: 6%;
+  float:right;
+  background-color: #f0efef;
+  height: 700px;
+  width: 20%;
+
+}
+.right-headers {
+  font-family:'Open Sans' sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #033048;
+  text-align: left;
+  padding-left: 40px;
+}
+.side-panel-text{
+  font-family:'Open Sans' sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: #033048;
+}
+.ad-box {
+  color:#033048;
+  height: 600px;
+  width: 20%;
+  float:right;
+  clear:both;
+  margin-right: 6%;
+}
+.ad-text {
+  color: #033048;
+}
+.body-copy-box {
+  margin-left: 4%;
+  margin-right: 0px;
+  width: 70%;
+  background-color: #f0efef;
+  float:left;
+               }
+img {
+  margin-left: 30px;
+}
+.blogpost-title {
+  color: #033048;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.blog-content {
+  font-family:'Open Sans' sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  color: black;
+  margin-left: 50px;
+
+}
   h1 {
   font-family:'Open Sans' sans-serif;
   font-weight: 700;
@@ -101,6 +184,7 @@ h3 {
 .signup-box {
   background-color: #f9e42e;
   height: 80px;
+  clear:both;
 }
 .button2 {
   background-color: #033048;
@@ -135,4 +219,5 @@ footer {
   background-color:#121212;
   color: white;
   margin-top: 0px;
+  clear:both;
 }
