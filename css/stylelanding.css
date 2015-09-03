@@ -7,6 +7,7 @@ header {
   background-color: grey;
   clear:both;
        }
+
 .home-header {
   background-image: url(../images/header_bg.jpg);
 }
@@ -23,15 +24,32 @@ header {
   padding-left: 50px;
   padding-bottom: 20px;
 }
-.navigation-menu {
+.about-nav, .faq-nav, .team-nav, .contact-nav, .blog-nav {
   color: #f9e42e;
   font-family: 'Open Sans' sans-serif;
   font-weight: 600;
   font-size: 20px;
-  margin-left: 50%;
   list-style-type: none;
-  float:left;
+  display: inline-block;
                  }
+.faq-nav, .team-nav, .contact-nav {
+  padding: 30px;
+}
+li:first-child {
+  margin-left: 110px;
+  padding: 0px;
+}
+a {
+  color: #f9e42e;
+  font-family: 'Open Sans' sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  list-style-type: none;
+  display: inline-block;
+}
+a:hover {
+  color: white;
+}
 .right-side-panel {
   margin-top: 0px;
   margin-left: 0%;
@@ -76,6 +94,8 @@ header {
                }
 img {
   margin-left: 30px;
+  overflow: hidden;
+
 }
 .blogpost-title {
   color: #033048;
