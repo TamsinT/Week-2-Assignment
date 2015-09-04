@@ -7,10 +7,21 @@ header {
   background-color: grey;
   clear:both;
        }
-
+a:hover {
+  color: red;
+        }
+p.blog-content:first-of-type:first-letter {
+          float: left;
+          font-size: 80px;
+          line-height: 65px;
+          padding-top: 4px;
+          padding-right: 8px;
+          padding-left: 3px;
+          font-weight: 600;
+                             }
 .home-header {
   background-image: url(../images/header_bg.jpg);
-}
+             }
 .nav-header {
   width: 90%;
   height: 200px;
@@ -19,11 +30,11 @@ header {
   margin-bottom: 0px;
   background-color: #033048;
   clear:both;
-}
+            }
 .navigation {
   padding-left: 50px;
   padding-bottom: 20px;
-}
+            }
 .about-nav, .faq-nav, .team-nav, .contact-nav, .blog-nav {
   color: #f9e42e;
   font-family: 'Open Sans' sans-serif;
@@ -31,14 +42,14 @@ header {
   font-size: 20px;
   list-style-type: none;
   display: inline-block;
-                 }
+                                                          }
 .faq-nav, .team-nav, .contact-nav {
   padding: 30px;
-}
-li:first-child {
+                                  }
+.about-nav {
   margin-left: 110px;
   padding: 0px;
-}
+               }
 a {
   color: #f9e42e;
   font-family: 'Open Sans' sans-serif;
@@ -46,20 +57,16 @@ a {
   font-size: 20px;
   list-style-type: none;
   display: inline-block;
-}
-a:hover {
-  color: white;
-}
+  }
 .right-side-panel {
   margin-top: 0px;
   margin-left: 0%;
   margin-right: 6%;
   float:right;
   background-color: #f0efef;
-  height: 700px;
+  height: 1256px;
   width: 20%;
-
-}
+                  }
 .right-headers {
   font-family:'Open Sans' sans-serif;
   font-weight: 600;
@@ -67,24 +74,28 @@ a:hover {
   color: #033048;
   text-align: left;
   padding-left: 40px;
-}
+               }
 .side-panel-text{
   font-family:'Open Sans' sans-serif;
   font-weight: 400;
   font-size: 13px;
   color: #033048;
-}
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 20px;
+                }
 .ad-box {
   color:#033048;
   height: 600px;
-  width: 20%;
   float:right;
   clear:both;
   margin-right: 6%;
-}
+  background-color: white;
+        }
 .ad-text {
   color: #033048;
-}
+  padding:50px;
+         }
 .body-copy-box {
   margin-left: 4%;
   margin-right: 0px;
@@ -95,21 +106,19 @@ a:hover {
 img {
   margin-left: 30px;
   overflow: hidden;
-
-}
+    }
 .blogpost-title {
   color: #033048;
   margin-top: 20px;
   margin-left: 40px;
-}
+                }
 .blog-content {
   font-family:'Open Sans' sans-serif;
   font-weight: 300;
   font-size: 13px;
   color: black;
   margin-left: 50px;
-
-}
+              }
   h1 {
   font-family:'Open Sans' sans-serif;
   font-weight: 700;
@@ -125,7 +134,7 @@ img {
     text-align: center;
     color: white;
     margin-top: 70px;
-  }
+     }
   .button1 {
     background-color: #f9e42e;
     font-family:'Open Sans' sans-serif;
@@ -137,7 +146,9 @@ img {
     padding: 5px 20px 5px 20px;
     border-radius: 5px;
          }
-
+  .button1:hover{
+    background-color: white;
+  }
   p {
     color: white;
     margin-left: 20%;
@@ -149,7 +160,7 @@ img {
   font-size: 9px;
   font-weight: 600;
   text-align: center;
-}
+                }
 .benefits-box,.quote-box,.signup-box, footer {
   width: 90%;
   margin-left: 4%;
@@ -164,10 +175,16 @@ img {
 .listdescription {
   color: black;
                  }
+.category-list {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  margin-right: 20px;
+  margin-left: 0px;
+}
 ul {
   color: black;
   margin-left: 200px;
-
    }
 li {
   font-family: 'Open Sans', sans-serif;
@@ -193,19 +210,18 @@ h3 {
   text-align: center;
   color: white;
   background-image: url(../images/testimonial_bg.jpg);
-}
+           }
 .boldname {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   font-weight: 600;
   color: red;
-}
-
+          }
 .signup-box {
   background-color: #f9e42e;
   height: 80px;
   clear:both;
-}
+            }
 .button2 {
   background-color: #033048;
   font-family: 'Open Sans', sans-serif;
@@ -230,14 +246,14 @@ h3 {
   list-style-type: none;
   display: inline;
   text-align: center;
-}
+                   }
 img {
   padding: 20px;
-}
+    }
 footer {
   height: 300px;
   background-color:#121212;
   color: white;
   margin-top: 0px;
   clear:both;
-}
+       }
